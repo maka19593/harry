@@ -21,7 +21,6 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-steps:
 - task: Maven@3
   displayName: 'Maven _maka19593.harry/pom.xml'
   inputs:
